@@ -1,0 +1,38 @@
+{
+  "name": "facebook-lead-manager-pro",
+  "version": "1.0.0",
+  "description": "Chrome extension for automated Facebook lead generation",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js",
+    "watch": "webpack --config webpack.dev.js --watch"
+  },
+  "keywords": [
+    "facebook",
+    "leads",
+    "chrome-extension",
+    "automation"
+  ],
+  "author": "Paulo Guachizaca",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.9",
+    "@types/chrome": "^0.0.260",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "babel-loader": "^9.1.3",
+    "copy-webpack-plugin": "^12.0.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.10.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
